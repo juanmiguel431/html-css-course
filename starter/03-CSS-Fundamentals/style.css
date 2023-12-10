@@ -99,6 +99,24 @@ article p:last-child {
   color: red;
 }
 
+/* Misconception - It wont work */
 article p:first-child {
   color: red;
+}
+
+a:link,
+a:visited {
+  color: #19b72e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #19b72e;
+  text-decoration: underline dotted orangered;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
