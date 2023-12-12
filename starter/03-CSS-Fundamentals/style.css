@@ -17,6 +17,11 @@ body {
   height: 80px;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .post-header {
   margin-bottom: 40px;
 }
