@@ -1,13 +1,37 @@
-
 * {
   /*border-top: 10px solid green;*/
+  margin: 0;
+  padding: 0;
 }
-
 
 body {
   color: #444;
   font-family: sans-serif;
-  border-top: 10px solid red;
+  border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  background-color: #d8d8d8;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  background-color: #d8d8d8;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  padding: 50px 0;
+  width: 500px;
 }
 
 /*h1,*/
@@ -24,6 +48,7 @@ h1,
 h2,
 h3 {
   color: #1098ad;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -34,10 +59,12 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -49,10 +76,23 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  /* margin-left: 50px; */
+  padding-left: 50px;
+  margin-bottom: 20px;
 }
 
 #author {
@@ -73,16 +113,6 @@ li {
   list-style: none;
 }
 
-.main-header {
-  background-color: #d8d8d8;
-}
-
-aside {
-  background-color: #d8d8d8;
-  border-top: 5px solid blue;
-  border-bottom: 5px solid blue;
-}
-
 li:first-child {
   font-weight: bold;
 }
@@ -95,16 +125,20 @@ li:nth-child(2) {
   color: red;
 }
 
-li:nth-child(odd) {
+/* li:nth-child(odd) {
   background-color: aliceblue;
 }
 
 li:nth-child(even) {
   background-color: beige;
-}
+} */
 
 article p:last-child {
   color: red;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 /* Misconception - It wont work */
