@@ -14,7 +14,7 @@ body {
   background-color: #d8d8d8;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .container {
@@ -157,15 +157,27 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  color: #19b72e;
-  text-decoration: underline dotted orangered;
-  font-weight: bold;
-}
-
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav a {
+  background-color: #d9b5a5;
+  font-weight: normal;
+  margin: 20px;
+  padding: 15px;
+}
+
+a:hover {
+  color: #19b72e;
+  text-decoration: underline dotted orangered;
+  /*font-weight: bold;*/
+  text-shadow:0px 0px 1px black;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 #copyright {
