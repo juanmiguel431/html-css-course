@@ -194,10 +194,14 @@ a:active {
   font-style: italic;
 }
 
+nav {
+  text-align: center;
+}
+
 nav a {
   background-color: #d9b5a5;
   font-weight: normal;
-  margin: 20px;
+  margin-right: 20px;
   padding: 15px;
 }
 
