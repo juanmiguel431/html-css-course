@@ -240,3 +240,15 @@ nav a:link:last-child {
   bottom: 50px;
   right: 50px;
 }
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
