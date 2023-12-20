@@ -199,9 +199,7 @@ a:active {
   font-style: italic;
 }
 
-nav {
-  text-align: center;
-}
+
 
 nav a {
   background-color: #d9b5a5;
@@ -246,46 +244,50 @@ nav a:link:last-child {
   right: 0;
 }
 
+/*Disabled in favor of FlexBox*/
 /* FLOATS */
-.author-img {
-  float: left;
-  margin-bottom: 20px;
-}
+/*nav {*/
+/*  text-align: center;*/
+/*}*/
+/*.author-img {*/
+/*  float: left;*/
+/*  margin-bottom: 20px;*/
+/*}*/
 
-.author {
-  float: left;
-  margin-top: 10px;
-  margin-left: 20px;
-}
+/*.author {*/
+/*  float: left;*/
+/*  margin-top: 10px;*/
+/*  margin-left: 20px;*/
+/*}*/
 
-header h1 {
-  float: left;
-}
+/*header h1 {*/
+/*  float: left;*/
+/*}*/
 
-header nav {
-  float: right;
-}
+/*header nav {*/
+/*  float: right;*/
+/*}*/
 
-/* .clear-float {
-  clear: both;
-} */
+/*!* .clear-float {*/
+/*  clear: both;*/
+/*} *!*/
 
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: block;
-}
+/*.clearfix::after {*/
+/*  clear: both;*/
+/*  content: '';*/
+/*  display: block;*/
+/*}*/
 
-article {
-  width: 825px;
-  float: left;
-}
+/*article {*/
+/*  width: 825px;*/
+/*  float: left;*/
+/*}*/
 
-aside {
-  width: 300px;
-  float: right;
-}
+/*aside {*/
+/*  width: 300px;*/
+/*  float: right;*/
+/*}*/
 
-footer {
-  clear: both;
-}
+/*footer {*/
+/*  clear: both;*/
+/*}*/
