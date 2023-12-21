@@ -182,7 +182,7 @@ article > p:last-child {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 /* Misconception - It wont work */
@@ -318,4 +318,15 @@ nav a:link:last-child {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.post-container {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+.post-container aside {
+  align-self: flex-start;
+  flex: 1 0 300px;
 }
