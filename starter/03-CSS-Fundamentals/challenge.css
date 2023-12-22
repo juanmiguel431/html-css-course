@@ -80,10 +80,6 @@ body {
   height: 30px;
 }
 
-.square-container div:last-child {
-  margin-right: 0;
-}
-
 .square-black {
   background-color: black;
 }
