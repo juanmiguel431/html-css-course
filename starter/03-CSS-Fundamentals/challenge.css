@@ -165,7 +165,7 @@ h2 {
 /* CSS Grid */
 .product {
   display: grid;
-  grid-template-columns: 250px 1fr 1fr;
+  grid-template-columns: auto 1fr 1fr;
   column-gap: 25px;
 }
 
