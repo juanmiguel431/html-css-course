@@ -51,15 +51,18 @@
         border-radius: 50%;
         display: flex;
         justify-content: center;
+        border: 1px solid #087f5b;
       }
 
       .pagination .pagination-left-icon,
       .pagination .pagination-right-icon {
         stroke: #087f5b;
-        width: 100%;
-        padding: 20px;
-        border-radius: 100%;
-        border: 1px solid #087f5b;
+        width: 32px;
+      }
+
+      .pagination .pagination-left:hover .pagination-left-icon,
+      .pagination .pagination-right:hover .pagination-right-icon {
+        stroke: #fff;
       }
 
       .pagination .page-item:link,
