@@ -62,12 +62,15 @@
         border: 1px solid #087f5b;
       }
 
-      .pagination .page-item {
+      .pagination .page-item:link,
+      .pagination .page-item:visited {
         font-size: 18px;
         padding: 12px;
         border-radius: 50%;
         width: 44px;
         text-align: center;
+        text-decoration: none;
+        color: #343a40;
       }
 
       .pagination .pagination-left:hover,
@@ -81,8 +84,8 @@
         stroke: #fff;
       }
 
-      .pagination .selected-page,
-      .pagination .page-item:hover {
+      .pagination .page-item:hover,
+      .pagination .page-item.selected-page {
         background-color: #087f5b;
         color: #fff;
         cursor: pointer;
@@ -91,7 +94,7 @@
   </head>
   <body>
     <div class="pagination">
-      <a class="pagination-left">
+      <a class="pagination-left" href="https://www.google.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -107,15 +110,15 @@
           />
         </svg>
       </a>
-      <a class="page-item">1</a>
-      <a class="page-item">2</a>
-      <a class="page-item selected-page">3</a>
-      <a class="page-item">4</a>
-      <a class="page-item">5</a>
-      <a class="page-item">6</a>
-      <a class="page-dots-item">...</a>
-      <a class="page-item">23</a>
-      <a class="pagination-right">
+      <a class="page-item" href="https://www.google.com">1</a>
+      <a class="page-item" href="https://www.google.com">2</a>
+      <a class="page-item selected-page" href="https://www.google.com">3</a>
+      <a class="page-item" href="https://www.google.com">4</a>
+      <a class="page-item" href="https://www.google.com">5</a>
+      <a class="page-item" href="https://www.google.com">6</a>
+      <span class="page-dots-item">...</span>
+      <a class="page-item" href="https://www.google.com">23</a>
+      <a class="pagination-right" href="https://www.google.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
