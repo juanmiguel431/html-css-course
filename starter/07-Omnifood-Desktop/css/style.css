@@ -1,0 +1,63 @@
+/*
++++ 01 Typography
+
+-- Font Size (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- Font Weights
+Default: 400
+
+-- Line Heights
+Default: 1
+
++++ 02 Colors
+Primary: #e67e22
+Tints (Darker) :
+Shades (Lighter) :
+Accents: 
+Greys: #555
+
++++ 03 Imanges
+
++++ 04 Icons
+
++++ 05 Shadows
+
++++ 06 Border Radius
+
++++ 07 White Space
+-- Spacing (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+
+html {
+  /* font-size: 10px; This will bring issues when users try to increase/decrease the size of font-size of the browser */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's font-size browser settings */
+  font-size: 62.5%;
+}
+
+.test {
+  background-color: red;
+  color: #fff;
+  padding: 4rem;
+  font-size: 2rem;
+  /* width: 1000px; */
+  /* max-width: 1000px; */
+  max-width: 50rem;
+  /* 1Rem = 16px = html tag font-size */
+}
