@@ -12,10 +12,12 @@ Default: 1
 
 +++ 02 Colors
 Primary: #e67e22
-Tints (Darker) :
-Shades (Lighter) :
-Accents:
-Greys: #555
+-- Tints (Lighter) : #fdf2e9
+-- Shades (Darker) :
+-- Accents:
+-- Greys:
+#555
+#333
 
 +++ 03 Imanges
 
@@ -62,14 +64,75 @@ html {
   /* 1Rem = 16px = html tag font-size */
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
 .hero {
   max-width: 130rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rebeccapurple;
   margin: 0 auto;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
 .hero-img {
   width: 100%;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  text-decoration: none;
+
+  /* Put transition on the original "state" */
+  transition: background-color 0.3s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #cf711f;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #fdf2e9;
+  /*border: 3px solid #fff;*/
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
