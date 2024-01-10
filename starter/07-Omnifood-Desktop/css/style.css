@@ -130,13 +130,18 @@
 .logos {
   display: flex;
   justify-content: space-around;
-  /*justify-content: center;*/
 }
 
 .logos img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 0.5;
+  transition: 0.25s;
+}
+
+.logos img:hover {
+ filter: brightness(1);
+ opacity: 100%;
 }
 
 /************* How it works Section ********************/
