@@ -160,7 +160,7 @@ strong {
     font-weight: 600;
 
     /* Put transition on the original "state" */
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .btn-full:link,
