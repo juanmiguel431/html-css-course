@@ -38,6 +38,7 @@ Primary: #e67e22
 
 +++ 06 Border Radius
 Default: 9px
+Medium: 11px
 
 +++ 07 White Space
 -- Spacing (px)
@@ -74,6 +75,10 @@ body {
     /* max-width: 1000px; */
     max-width: 50rem;
     /* 1Rem = 16px = html tag font-size */
+}
+
+strong {
+    font-weight: 500;
 }
 
 /************ General Reusable Components **************/
