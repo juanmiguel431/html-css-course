@@ -23,7 +23,7 @@ paragraph default: 1.6
 
 +++ 02 Colors
 Primary: #e67e22
--- Tints (Lighter) : #fdf2e9, #fae5d3
+-- Tints (Lighter) : #fdf2e9, #eb984e, #fae5d3
 -- Shades (Darker) : #cf711f, #a15818;
 -- Accents:
 -- Greys:
@@ -36,6 +36,7 @@ Primary: #e67e22
 +++ 04 Icons
 
 +++ 05 Shadows
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 +++ 06 Border Radius
 Default: 9px
