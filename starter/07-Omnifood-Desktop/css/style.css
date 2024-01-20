@@ -343,7 +343,8 @@
 .gallery-item img {
   display: block;
   width: 100%;
-  transition: transform 0.4s;
+  opacity: 0.85;
+  transition: transform 0.4s, opacity 0.4s;
 }
 
 .gallery-item {
@@ -352,6 +353,7 @@
 
 .gallery-item img:hover {
   transform: scale(110%);
+  opacity: 1;
 }
 
 /************* Pricing Section ********************/
