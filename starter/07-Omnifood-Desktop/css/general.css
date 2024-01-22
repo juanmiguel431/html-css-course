@@ -61,6 +61,8 @@ html {
     /* 10px / 16px = 0.625 = 62.5% */
     /* Percentage of user's font-size browser settings */
     font-size: 62.5%;
+
+    overflow-x: hidden;
 }
 
 body {
@@ -68,6 +70,9 @@ body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #555;
+
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
 }
 
 .test {
