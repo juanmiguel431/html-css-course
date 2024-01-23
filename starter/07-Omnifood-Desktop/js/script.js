@@ -7,6 +7,12 @@ const year = document.querySelector('.year');
 const date = new Date();
 year.textContent = date.getFullYear().toString();
 
+const header = document.querySelector('.header');
+const btn = document.querySelector('.btn-mobile-nav');
+btn.addEventListener('click', function (evt) {
+  header.classList.toggle('nav-open');
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
