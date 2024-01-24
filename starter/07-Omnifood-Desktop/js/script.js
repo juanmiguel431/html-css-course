@@ -8,6 +8,7 @@ const date = new Date();
 year.textContent = date.getFullYear().toString();
 
 // Make mobile navigation work
+const body = document.querySelector('body');
 const header = document.querySelector('.header');
 const btn = document.querySelector('.btn-mobile-nav');
 btn.addEventListener('click', function (evt) {
@@ -36,6 +37,26 @@ allLinks.forEach(function (link) {
     }
   })
 })
+
+// Sticky Navigation
+const heroSectionEl = document.querySelector('.section-hero');
+
+const observer = new IntersectionObserver(function (entries) {
+  const entry = entries[0];
+
+  if (entry.isIntersecting) {
+    body.classList.remove('sticky');
+  } else {
+    body.classList.add('sticky');
+  }
+
+}, {
+  root: null, // In the viewport
+  threshold: 0,
+  rootMargin: '-80px'
+});
+
+observer.observe(heroSectionEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
