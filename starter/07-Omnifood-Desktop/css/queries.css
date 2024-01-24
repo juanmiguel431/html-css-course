@@ -170,6 +170,10 @@
         visibility: hidden;
     }
 
+    .no-scroll {
+        overflow: hidden;
+    }
+
     .nav-open .main-nav {
         opacity: 1;
         pointer-events: auto;

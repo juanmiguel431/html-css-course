@@ -8,11 +8,13 @@ const date = new Date();
 year.textContent = date.getFullYear().toString();
 
 // Make mobile navigation work
+const html = document.querySelector('html');
 const body = document.querySelector('body');
 const header = document.querySelector('.header');
 const btn = document.querySelector('.btn-mobile-nav');
 btn.addEventListener('click', function (evt) {
   header.classList.toggle('nav-open');
+  html.classList.toggle('no-scroll');
 });
 
 // Smooth scrolling navigation
@@ -34,6 +36,7 @@ allLinks.forEach(function (link) {
 
     if (link.classList.contains('main-nav-link')) {
       header.classList.remove('nav-open');
+      html.classList.remove('no-scroll');
     }
   })
 })
