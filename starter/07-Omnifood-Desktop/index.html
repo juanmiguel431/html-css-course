@@ -68,10 +68,16 @@
         </div>
       </div>
       <div class="hero-image-box">
-        <img
-          src="img/hero.png"
-          alt="Woman enjoying food, meals in storage container, and food bowls on a table."
-          class="hero-img">
+        <picture>
+          <source srcset="img/hero.webp" type="image/webp">
+          <source srcset="img/hero-compressed.png" type="image/png">
+
+          <img
+            src="img/hero-compressed.png"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table."
+            class="hero-img">
+        </picture>
+
       </div>
     </div>
   </section>
